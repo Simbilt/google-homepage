@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.google{
+    display: flex;
+    letter-spacing: 2px;
+}
+.g{
+    text-transform: uppercase;
+    color: #4285F4;
+    font-size: 5em;
+}
+.o{
+    color: #DB4437;
+    font-size: 4em;
+}
+.oo{
+    color: #F4B400;
+    font-size: 4em;
+}
+.gg{
+    color: #4285F4;
+    font-size: 4em;
+}
+.l{
+    color: #0F9D58;
+    font-size: 4em;
+}
+.e{
+    color: #DB4437;
+    font-size: 4em;
+    transform: rotate(-30deg);
+}
+
+.searchbar{
+    width: 600px;
+    height: 50px;
+    border: 1px solid #E0E0E0;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 2px 2px 4px grey;
+}
+.search{
+    width: 500px;
+    height: 40px;
+    border: none;
+    font-size: 1.5em;
+    outline: none;
+}
+
+.pretraga{
+    font-size: 25px;
+    color: #E0E0E0;
+    margin-right: 10px;
+    margin-top: 12px;
+}
+.mikrofon{
+    font-size: 25px;
+    color: #E0E0E0;
+    margin-top: 12px;
+}
